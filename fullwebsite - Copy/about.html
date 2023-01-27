@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html" ><img src="logo.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa-sharp fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars"onclick="showmenu()"></i>
+        </nav>
+
+                <h1>About Us</h1>
+    </section>
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We Are The World's Largest University</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ipsum sed 
+                    debitis porro fuga suscipit praesentium culpa odio tempore molestiae eligendi animi, 
+                    recusandae nesciunt sint ullam officiis sapiente repellendus. Velit? Lorem ipsum dolor, sit 
+                    amet consectetur adipisicing elit. Ea, dignissimos est. Error impedit voluptate nesciunt distinctio veritatis quibusdam 
+                    facere officiis praesentium blanditiis.
+                     Aperiam aliquid adipisci fuga sequi nesciunt harum sint?</p>
+                    <a href="" class="hero-btn blue-btn">Explore Now</a>
+            </div>
+            <div class="about-col">
+                <img src="about.jpg">
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus sit <br> cupiditate facilis. Non excepturi amet, 
+             tempore illum aspernatur sit saepe quae incidunt?</p>
+             <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+             </div>
+             <p>Made With <i class="fa-solid fa-heart"></i> Ahmed Adel</p>
+    </section>
+    <script>
+        var navlinks=document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right="0";
+                }
+                function hidemenu(){
+            navlinks.style.right="-400px";
+                }
+    </script>
+</body>
+</html>
